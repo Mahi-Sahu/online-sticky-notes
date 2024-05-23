@@ -1,0 +1,49 @@
+*{
+    padding: none;
+    border: none;
+    margin: none;
+}
+body{
+    background-color: #DDA77B;
+    font-family: "Architects Daughter";
+    font-size: 24px;
+}
+.main-container{
+    width: 95%;
+    margin: 1%;
+
+}
+.container2{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.create{
+    border: none;
+    background-color: #5A2328;
+    color: white;
+    border-radius: 0.5rem;
+}
+.container3{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 26%;
+    left: 40%;
+}
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.671);
+    border: none;
+    width: 50vmin;
+    height: 50vmin;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+/*This page illustrates the application of CSS to the specialized language for creating graphics: SVG.*/
+.icon{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    color: #5A2328;
+}
